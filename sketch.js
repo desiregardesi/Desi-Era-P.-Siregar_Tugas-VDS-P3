@@ -1,10 +1,9 @@
-
 let dataBar = []; //buat variabel global
-let dataPie = [2756, 234,435,5456];
-let colors = ['red','green', 'blue', 'grey','yellow'];
-let url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRpUV-fDjiy8Oap5_MLgU5sftHw6QqE8MiG74XelDSImIalEV2t9chMjrmSCKKGYNir_PKDsRCtTIhj/pub?output=csv';
+let dataPie = [2756, 234,435,5456]; //supaya jadi variabel global
+let colors = ['red','green', 'blue', 'grey','yellow']; //untuk pieplot
+let url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTN4nLYEakWVA8n7aTmvG9oBd1ODR6r-wW8LBweV-_2p_N2spBUkeycL_0DudLFqLvqF8-SxfMxxh1M/pub?output=csv';
 let dataSheet;
-let urlAPI = "https://api.openweathermap.org/data/2.5/weather?q=NAMA_KOTA&appid=KODE_API_PENGGUNA&units=metric";
+let urlAPI = "https://api.openweathermap.org/data/2.5/weather?q=Lampung&appid=8447d24ae9ccc6abdb321debd31389c3&units=metric";
 let dataAPI;
 
 let xData;
